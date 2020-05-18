@@ -1,5 +1,5 @@
 <template>
-  <c-grid bg="gray.800" h="100vh" w="100wh" color="white" font-family="body" template-columns="80px 1fr">
+  <c-grid bg="gray.900" h="100vh" w="100wh" color="white" font-family="body" template-columns="80px 1fr">
     <side-nav grid-column="1/2" />
     <transition mode="out-in" name="fade">
       <router-view />

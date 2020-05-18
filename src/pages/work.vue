@@ -1,5 +1,5 @@
 <template>
-  <c-box grid-column="2/3" px="24" py="10">
+  <c-box grid-column="2/3" :px="[12, 12, 24]" py="10">
     <c-heading>Work</c-heading>
     <c-text :max-w="[null, null, '50%']" color="whiteAlpha.800" font-size="lg" mt="4">
       Hover over the side nav to view some cool interactions!
